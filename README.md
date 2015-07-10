@@ -14,10 +14,9 @@
     3. `make`
     4. `make install`
 4. If you get errors for any of these commands, then consult the **README** file in the corresponding direcotry/submodule.
-  
-4. Now for running the training scripts, run the following commands inside am_traning dir.
-    1. `sphinxtrain -t ellavator setup`
 
 ## Running training
-5. cd to "am_training/ellavator" dir and run the following command
-    6. `sphinxtrain run`    //The training should starts now, takes time for large corpus in "wav" dir
+
+1. cd to "am_training/ellavator" dir and run the following commands
+    1. `sphinxtrain -t ellavator setup`
+    2. `sphinxtrain run`    //The training should starts now, takes time for large corpus in "wav" dir
