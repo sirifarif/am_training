@@ -19,4 +19,12 @@
 
 1. cd to "am_training/ellavator" dir and run the following commands
     1. `sphinxtrain -t ellavator setup`
+you should get something like:
+
+```
+Sphinxtrain path: /usr/local/lib/sphinxtrain**
+Sphinxtrain binaries path: /usr/local/libexec/sphinxtrain**\
+Setting up the database ellavator
+```
+
     2. `sphinxtrain run`    //The training should starts now, takes time for large corpus in "wav" dir
