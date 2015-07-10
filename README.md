@@ -1,7 +1,7 @@
 ## Acoutic model training using sphinx 
 ####(the instructions in this readme file are valid for Mac and *nix OS). For detail instructions [see here](http://cmusphinx.sourceforge.net/wiki/tutorialam)
 
-## Preparatioin:
+## Preparation:
 1. After checking out this repository you have to get the contents of three submoodules i.e sphinxtrain, sphinxbase and pocketsphinx
 
 2. Inside am_training dir, use the command
