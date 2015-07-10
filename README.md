@@ -1,4 +1,4 @@
-## Acoutic model training using sphinx 
+## Acoustic model training using sphinx 
 ####(the instructions in this readme file are valid for Mac and *nix OS). For detail instructions [see here](http://cmusphinx.sourceforge.net/wiki/tutorialam)
 
 ## Preparation:
