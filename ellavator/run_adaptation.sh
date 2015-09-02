@@ -30,7 +30,7 @@ fi
 echo "==================================="
 echo "Extract mfcc features from training data"
 echo "==================================="
-sphinx_fe -argfile en-us/feat.params -samprate 16000 -c $fileids -di $cur_dir/etc -do $cur_dir/etc -ei wav -eo mfc -mswav yes
+sphinx_fe -argfile en-us/feat.params -samprate 16000 -c $fileids -di $cur_dir/wav -do $cur_dir/etc -ei wav -eo mfc -mswav yes
 		
 echo "==================================="		
 echo "Convert model to text format"
