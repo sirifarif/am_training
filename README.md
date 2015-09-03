@@ -15,7 +15,7 @@
     4. `make install`
 4. If you get errors for any of these commands, then consult the **README** file in the corresponding direcotry/submodule.
 
-5. Before running the **adaptation** commnad in next step, please run the following commands in the EllaVator project. This is for getting the audio data. 
+5. Before running the **adaptation** commnad in next step, please checkout the **am_adaptation** branch and run the following commands in the EllaVator project. This is for getting the audio data. 
 
     `./gradlew extractAudio`
     
