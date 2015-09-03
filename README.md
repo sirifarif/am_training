@@ -1,4 +1,4 @@
-## Acoutic model training using sphinx 
+## Acoutic model adaptation recipe using sphinx 
 ####(the instructions in this readme file are valid for Mac and *nix OS). For detail instructions [see here](http://cmusphinx.sourceforge.net/wiki/tutorialam)
 
 ## Preparatioin:
@@ -14,10 +14,18 @@
     3. `make`
     4. `make install`
 4. If you get errors for any of these commands, then consult the **README** file in the corresponding direcotry/submodule.
-  
-4. Now for running the training scripts, run the following commands inside am_traning dir.
-    1. `sphinxtrain -t ellavator setup`
 
-## Running training
-5. cd to "am_training/ellavator" dir and run the following command
-    6. `sphinxtrain run`    //The training should starts now, takes time for large corpus in "wav" dir
+5. Before running the **adaptation** commnad in next step, please run the following commands in the EllaVator project. This is for getting the audio data. 
+
+    `./gradlew extractAudio`
+    
+     `./gradlew extractNoisyAudio`   
+
+  
+7. cd to **elevator** direcotry inside **am_training** direcotory and run the following scripts.
+    1. `./run_adaptation map both`
+
+8. We can use either **map** or **mllr** as adaptation method and **noise** **close** or **both** for choosing the data for adaptation.
+
+8. But the **map** method is currently working correctly with our data. 
+
